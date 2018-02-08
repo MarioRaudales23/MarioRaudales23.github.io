@@ -1,0 +1,163 @@
+body{
+  background-image: url("../src/FondoOscuro1.jpg");
+  background-size: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+div{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  margin: 20px;
+}
+img{
+  width: 100%;
+  height: 20%;
+  border-radius: 50%;
+}
+hr{
+  border-width: 1px;
+}
+ul,li{
+  padding: 10px;
+  font-size: 20px;
+  text-align: justify;
+  list-style-type: square;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.Barra-background{
+  border-radius: 5px;
+  display: block;
+  background-color: lightgrey;
+}
+.Barra-front{
+  margin: 0;
+  border-radius: 5px;
+  display: block;
+  background-color: orange;
+  text-align: center;
+}
+.Columna1{
+  background-color: rgba(201, 158, 4,0.5);
+  width: 30%;
+  flex-direction: column;
+  border: thick solid black;
+}
+.Columna1>div{
+  border-radius: 16px;
+  display: block;
+}
+.Columna2{
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+}
+.Columna2>div{
+
+}
+.Habilidades{
+  flex-direction: column;
+  text-align: justify;
+  text-indent: 16px;
+}
+.Habilidades>div{
+  display: block;
+}
+.listas{
+  padding: 10px;
+}
+.lista{
+  padding: 5px;
+  text-align: justify;
+}
+.listas>div{
+  border-radius: 16px;
+  background-color: rgba(196, 128, 11,0.5);
+}
+.Lista1{
+  height: 34%;
+  width: 80%;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(140, 126, 28,0.5);
+}
+.Lista1>h2{
+  text-align: center;
+  display: block;
+}
+.Lista2{
+  height: 32%;
+  width: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(140, 126, 28,0.5);
+}
+
+.titulos{
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.parrafo{
+  text-align: justify;
+}
+.cuerpo-ref{
+  text-align: justify;
+  padding: 5px;
+}
+a:hover{
+  font-size: 24px;
+  transition: width 4s;
+}
+#Barra1{
+  width: 70%;
+}
+#Barra2{
+  width: 80%;
+}
+#Barra3{
+  width: 30%;
+}
+#Barra4{
+  width: 80%;
+}
+#Barra5{
+  width: 95%;
+}
+#Barra6{
+  width: 90%;
+}
+#Barra7{
+  width: 60%;
+}
+#Referencias{
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 32%;
+  width: 80%;
+  background-color: rgba(173, 153, 5,0.5);
+}
+#TituloPrincipal{
+  text-align: center;
+  font-size: 45px;
+}
+#tituloHabilidad{
+  font-size: 20px;
+}
+#tituloIdioma{
+  font-size: 24px;
+  text-align: center;
+}
+#listahobbie{
+  margin-top: 10px;
+}
